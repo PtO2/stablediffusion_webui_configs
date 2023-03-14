@@ -32,13 +32,13 @@
     "ESRGAN_tile": 192,
     "ESRGAN_tile_overlap": 8,
     "realesrgan_enabled_models": [
-        "R-ESRGAN x4+",
-        "R-ESRGAN x4+ Anime6B"
+        "R-ESRGAN 4x+",
+        "R-ESRGAN 4x+ Anime6B"
     ],
     "SWIN_tile": 192,
     "SWIN_tile_overlap": 8,
     "ldsr_steps": 100,
-    "upscaler_for_img2img": "Lanczos",
+    "upscaler_for_img2img": "ESRGAN_4x",
     "use_scale_latent_for_hires_fix": true,
     "face_restoration_model": null,
     "code_former_weight": 0.5,
