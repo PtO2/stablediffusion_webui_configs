@@ -106,7 +106,7 @@
     "save_images_add_number": true,
     "inpainting_mask_weight": 1,
     "send_seed": true,
-    "sd_vae": "animevae",
+    "sd_vae": "animevae.pt",
     "save_images_before_highres_fix": false,
     "save_optimizer_state": false,
     "training_xattention_optimizations": false,
